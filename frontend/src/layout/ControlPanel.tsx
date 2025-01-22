@@ -227,7 +227,7 @@ function ControlPanel() {
 
   const handleSubmit = async () => {
     try {
-      const serverUrl = "https://codonnier.tech/parth/bookclublm/dev";
+      const serverUrl = "http://147.182.236.88/bookclublm/live";
       const loginUrl = `${serverUrl}/Service.php?Service=login&show_error=false`;
       const appSecret = "BookClubLm@1210#";
   
@@ -244,7 +244,7 @@ function ControlPanel() {
       };
   
       const loginPayload = {
-        email: "jignesha@yopmail.com",
+        email: "dipak@yopmail.com",
         password: "123456"
       };
   
